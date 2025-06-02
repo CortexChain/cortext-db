@@ -111,46 +111,6 @@ PGPASSWORD="12345a@A" psql -h localhost -p 5435 -U admin -d contextdb
 PGPASSWORD="12345a@A" psql -h localhost -p 5432 -U admin -d contextdb
 ```
 
-### Application Connection Strings
-
-```javascript
-// Node.js example
-const writePool = new Pool({
-  host: 'localhost',
-  port: 5434,
-  database: 'contextdb',
-  user: 'admin',
-  password: '12345a@A'
-});
-
-const readPool = new Pool({
-  host: 'localhost', 
-  port: 5435,
-  database: 'contextdb',
-  user: 'admin',
-  password: '12345a@A'
-});
-```
-
-```python
-# Python example
-WRITE_DB = {
-    'host': 'localhost',
-    'port': 5434,
-    'database': 'contextdb',
-    'user': 'admin',
-    'password': '12345a@A'
-}
-
-READ_DB = {
-    'host': 'localhost',
-    'port': 5435, 
-    'database': 'contextdb',
-    'user': 'admin',
-    'password': '12345a@A'
-}
-```
-
 ### Environment Variables
 
 ```bash
