@@ -340,6 +340,6 @@ Nếu gặp vấn đề:
 
 ---
 
-**Created by**: CortextChain Team  
-**Last Updated**: $(date)  
+**Created by**: Lucas Aleh
+**Last Updated**: 3/6/2025  
 **Version**
